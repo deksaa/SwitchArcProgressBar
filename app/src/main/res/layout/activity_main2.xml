@@ -8,7 +8,7 @@
     tools:context="com.custom.destanerik.Main2Activity"
     android:padding="50dp">
 
-    <com.custom.destanerik.arcprogressbar.ArcProgressBar
+    <com.custom.destanerik.ArcProgressBar
         android:id="@+id/customBar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -16,7 +16,7 @@
         app:indicantText="CPU"
         app:progressText="%40"
         app:backgroundColor="@color/colorPrimaryDark"
-        app:backgroundWidth="20dp"
+        app:backgroundWidth="5dp"
         app:progressColor="@color/colorAccent"
         app:progressValue="40"
         app:maxProgressValue="100"
