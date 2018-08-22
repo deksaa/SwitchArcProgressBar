@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.custom.destanerik.Main2Activity"
+    android:padding="50dp">
+
+    <com.custom.destanerik.arcprogressbar.ArcProgressBar
+        android:id="@+id/customBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:indicantText="CPU"
+        app:progressText="%40"
+        app:backgroundColor="@color/colorPrimaryDark"
+        app:backgroundWidth="20dp"
+        app:progressColor="@color/colorAccent"
+        app:progressValue="40"
+        app:maxProgressValue="100"
+        app:strokeWidth="15dp"
+        app:indicantTextSize="50"
+        app:progressTextSize="90"
+        app:roundedCorners="true"/>
+
+</RelativeLayout>

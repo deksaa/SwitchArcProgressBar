@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArcProgressBar">
+        <attr name="progressColor" format="color"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="progressTextColor" format="color"/>
+        <attr name="indicantTextColor" format="color"/>
+
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="backgroundWidth" format="dimension"/>
+
+        <attr name="maxProgressValue" format="integer"/>
+        <attr name="progressValue" format="integer"/>
+
+        <attr name="progressTextSize" format="integer"/>
+        <attr name="indicantTextSize" format="integer"/>
+
+        <attr name="progressText" format="string"/>
+        <attr name="progressPrefix" format="string"/>
+        <attr name="progressSuffix" format="string"/>
+        <attr name="indicantText" format="string"/>
+
+        <attr name="roundedCorners" format="boolean"/>
+
+        <attr name="enabled" format="boolean"/>
+    </declare-styleable>
+</resources>
