@@ -1,13 +1,14 @@
-package com.custom.destanerik;
+package com.custom.destanerik.switcharcprogressbar.model;
 
-public class ArcProgressModel
+public class SwitchArcProgressModel
 {
     private String progressText;
     private String prefix;
     private String suffix;
     private String indicantText;
 
-    public ArcProgressModel(String progressText, String prefix, String suffix, String indicantText) {
+    public SwitchArcProgressModel(String progressText, String prefix, String suffix, String indicantText)
+    {
         this.progressText = progressText;
         this.prefix = prefix;
         this.suffix = suffix;
