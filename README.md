@@ -1,5 +1,5 @@
 # SwitchArcProgressBar
-SWitchArcProgressBar allows to change the progress value and bar by clicking with smooth animation.
+SwitchArcProgressBar allows to change the progress value and bar by clicking with smooth animation.
 
 ## Preview
 
