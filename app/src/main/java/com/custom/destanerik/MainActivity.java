@@ -9,7 +9,7 @@ import com.custom.destanerik.switcharcprogressbar.model.SwitchArcProgressModel;
 
 import java.util.ArrayList;
 
-public class Main2Activity extends AppCompatActivity implements SwitchArcProgressBar.OnChangedValueListener{
+public class MainActivity extends AppCompatActivity implements SwitchArcProgressBar.OnChangedValueListener{
 
     ArrayList<SwitchArcProgressBar> bars;
     ArrayList<SwitchArcProgressModel> barModels;
@@ -53,13 +53,13 @@ public class Main2Activity extends AppCompatActivity implements SwitchArcProgres
         barModels.add(new SwitchArcProgressModel("8","%","~","Speed"));
         barModels.add(new SwitchArcProgressModel("34","%","~","Rpm"));
         barModels.add(new SwitchArcProgressModel("77","%","~","Current"));
-        barModels.add(new SwitchArcProgressModel("59","%","~","Pressure"));
+        barModels.add(new SwitchArcProgressModel("59","%","~","Stress"));
     }
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main);
         this.init();
     }
 
